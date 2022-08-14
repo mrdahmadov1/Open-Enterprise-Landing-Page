@@ -1,0 +1,658 @@
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #f9f9f9;
+    color: #303031;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 1px solid blue; */
+}
+
+.col {
+    /* border: 1px solid red; */
+}
+
+.col-1 {
+    flex: 0 0 8.333333333333334%;
+}
+
+.col-2 {
+    flex: 0 0 16.666666666666668%;
+}
+
+.col-3 {
+    flex: 0 0 25%;
+}
+
+.col-4 {
+    flex: 0 0 33.333333333333336%;
+}
+
+.col-5 {
+    flex: 0 0 41.66666666666667%;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+}
+
+.col-7 {
+    flex: 0 0 58.333333333333336%;
+}
+
+.col-8 {
+    flex: 0 0 66.66666666666667%;
+}
+
+.col-9 {
+    flex: 0 0 75%;
+}
+
+.col-10 {
+    flex: 0 0 83.33333333333334%;
+}
+
+.col-11 {
+    flex: 0 0 91.66666666666667%;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+}
+
+/* HEADER STYLE STARTS */
+header {
+    width: 100%;
+    height: 107px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Open Sans';
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+}
+
+header .logo p {
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.04em;
+    padding-left: 8px;
+    font-weight: 700;
+}
+
+header .nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .nav .menu {
+    display: flex;
+    padding-right: 33px;
+}
+
+header .nav .menu .menu-item a {
+    font-weight: 600;
+    line-height: 25px;
+    padding-left: 40px
+}
+
+header .nav .menu .menu-item:nth-child(4) a {
+    color: #71A894;
+}
+
+/* HEADER STYLE ENDS */
+
+/*********************/
+
+/* MAIN STYLE STARTS */
+
+/* SECTION 1 STYLE STARTS */
+
+section.section-1 {
+    justify-content: space-between;
+}
+
+section.section-1 .content {
+    padding-top: 160px;
+    padding-left: 55px;
+}
+
+section.section-1 .content h1 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+section.section-1 .content p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #66645e;
+    margin: 24px 0 49px;
+}
+
+section.section-1 .content button {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    background: #71a894;
+    border-radius: 8px;
+    padding: 20px 24px;
+    border: none;
+    outline: none;
+}
+
+section.section-1 .image {
+    height: 720px;
+    padding: 69px 0;
+}
+
+section.section-1 .image img {
+    position: absolute;
+}
+
+section.section-1 .image img.illustrator {
+    width: 700px;
+    z-index: 2;
+}
+
+/* SECTION 1 STYLE ENDS */
+
+/* SECTION 2 STYLE STARTS */
+
+section.section-2 {
+    padding-top: 314px;
+    padding-bottom: 189px;
+    text-align: center;
+}
+
+section.section-2 .title {
+    width: 895px;
+    margin: 0 auto;
+}
+
+section.section-2 .title h2 {
+    margin-bottom: 24px;
+}
+
+section.section-2 .title p {
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+section.section-2 .content {
+    width: 100%;
+    margin: 0 56px;
+    justify-content: space-between;
+}
+
+section.section-2 .content .box {
+    flex-basis: 427px;
+    padding: 64px 16px;
+    background: #ffffff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section.section-2 .content .box h3 {
+    font-family: 'Proxima Nova';
+    line-height: 32px;
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+
+section.section-2 .content .box p {
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* SECTION 2 STYLE ENDS */
+
+/* SECTION 3 STYLE STARTS */
+
+section.section-3 {
+    padding: 0 56px;
+    padding-bottom: 131px;
+}
+
+section.section-3 .content h2 {
+    margin: 24px 0;
+}
+
+section.section-3 .content p {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+section.section-3 .card .widget {
+    width: 484px;
+    height: 400px;
+    border: 4px solid #303031;
+    border-radius: 16px;
+    padding: 32px 40px;
+    margin-left: 138px;
+    font-family: 'Open Sans';
+}
+
+section.section-3 .card .widget h4 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 24px;
+}
+
+section.section-3 .card .widget .member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+section.section-3 .card .widget .member img {
+    margin-right: 12px;
+}
+
+section.section-3 .card .widget .member .info h5 {
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 4px;
+}
+
+section.section-3 .card .widget .member .info p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #66645e;
+}
+
+/* SECTION 3 STYLE ENDS */
+
+/* SECTION 4 STYLE STARTS */
+
+section.section-4 {
+    padding-bottom: 171px;
+}
+
+section.section-4 .widget {
+    width: 484px;
+    height: 412px;
+    border: 4px solid #303031;
+    border-radius: 16px;
+    background: #ffffff;
+    padding: 32px 40px;
+    margin-left: 80px;
+    font-family: 'Open Sans';
+}
+
+section.section-4 .widget .member {
+    display: flex;
+    align-items: center;
+}
+
+section.section-4 .widget .member img {
+    margin-right: 12px;
+}
+
+section.section-4 .widget .member .info h5 {
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+section.section-4 .widget .member .info p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #66645e;
+}
+
+section.section-4 .widget>p {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 24px 0;
+}
+
+section.section-4 .widget .details {
+    display: flex;
+}
+
+section.section-4 .widget .details .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #66645e;
+    margin-bottom: 12px;
+}
+
+section.section-4 .widget .details .subtitle {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+section.section-4 .widget button {
+    padding: 12px 24px;
+    width: 404px;
+    height: 56px;
+    background: #303031;
+    border-radius: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 32px;
+}
+
+section.section-4 .content {
+    padding-right: 54px;
+}
+
+section.section-4 .content h2 {
+    margin: 24px 0;
+}
+
+section.section-4 .content p {
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* SECTION 4 STYLE ENDS */
+
+/* SECTION 5 STYLE STARTS */
+
+section.section-5 {
+    padding-bottom: 184px;
+}
+
+section.section-5 .content {
+    padding-left: 56px;
+}
+
+
+section.section-5 .content h2 {
+    margin: 24px 0;
+}
+
+section.section-5 .content p {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+section.section-5 .card {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 46px;
+    font-family: 'Open Sans';
+}
+
+section.section-5 .card .widget {
+    background: #ffffff;
+    border: 4px solid #303031;
+    border-radius: 16px;
+}
+
+section.section-5 .card .widget-1 {
+    width: 631px;
+    height: 164px;
+    padding: 24px 59.5px;
+    margin-bottom: 13px;
+}
+
+section.section-5 .card .widget-1 .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.section-5 .card .widget-1 .title h6 {
+    margin-bottom: 16px;
+}
+
+section.section-5 .card .widget-1 .title button {
+    padding: 4px 8px;
+    background: #71a894;
+    border-radius: 40px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+section.section-5 .card .widget-1 .description p {
+    box-sizing: border-box;
+    width: 404px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+section.section-5 .card .widget-2 {
+    width: 381px;
+    height: 288px;
+    padding: 32px 40px;
+}
+
+section.section-5 .card .widget-2 h4 {
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+section.section-5 .card .widget-2 .member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+section.section-5 .card .widget-2 .member img {
+    margin-right: 16px;
+}
+
+section.section-5 .card .widget-2 .member h5 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+section.section-5 .card .widget-3 {
+    width: 240px;
+    height: 288px;
+    border-color: #71A894;
+    padding: 24px;
+    text-align: center;
+    margin-left: 12px;
+}
+
+section.section-5 .card .widget-3 .member img {
+    width: 72px;
+    height: 72px;
+}
+
+section.section-5 .card .widget-3 .member h5 {
+    font-size: 20px;
+    margin-bottom: 4px;
+    margin-top: 16px;
+}
+
+section.section-5 .card .widget-3 .member p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #66645E;
+}
+
+section.section-5 .card .widget-3>p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 16px 0;
+    text-align: left;
+}
+
+section.section-5 .card .widget-3 button {
+    box-sizing: border-box;
+    width: 192px;
+    padding: 12px 24px;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #303031;
+}
+
+/* SECTION 5 STYLE ENDS */
+
+/* SECTION 6 STYLE STARTS */
+
+section.section-6 .title h2 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+section.section-6 .title p {
+    box-sizing: border-box;
+    width: 895px;
+    margin: 0 auto;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+section.section-6 .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 52px;
+    font-family: 'Open Sans';
+}
+
+section.section-6 .content .box {
+    width: 427px;
+    height: 216px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+section.section-6 .content .box h6 {
+    margin-bottom: 16px;
+}
+
+section.section-6 .content .box>p {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+section.section-6 .content .box .date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.section-6 .content .box .date button {
+    padding: 4px 8px;
+    background: #71A894;
+    border-radius: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+section.section-6 .content .box .date p {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+section.section-6>button {
+    padding: 20px 24px;
+    background: #303031;
+    border-radius: 8px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 64px auto 0;
+}
+
+/* SECTION 6 STYLE ENDS */
+
+/* SECTION 7 STYLE STARTS */
+
+section.section-7 {
+    margin: 52px 0 44px;
+}
+
+/* SECTION 7 STYLE ENDS */
+
+/* SECTION 8 STYLE STARTS */
+
+section.section-8 {
+    padding-bottom: 120px;
+}
+
+section.section-8 .content {
+    padding-top: 59px;
+}
+
+section.section-8 .content p {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+section.section-8 .image {
+    margin: 0;
+    padding: 0;
+    width: 644px;
+    height: 361px;
+    box-sizing: border-box;
+    padding-left: 40px;
+}
+
+/* SECTION 8 STYLE ENDS */
+
+/* MAIN STYLE ENDS */
+
+/**********************/
+
+/* FOOTER STYLE STARTS */
+
+footer {
+    margin: 0 56px 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .logo p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+footer .menu ul a {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+footer .menu ul a:nth-child(4){
+    color: #71A894;
+}
+
+/* FOOTER STYLE ENDS */
